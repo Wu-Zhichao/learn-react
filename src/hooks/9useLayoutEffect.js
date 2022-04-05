@@ -1,6 +1,5 @@
 import React, {useState,useLayoutEffect,useEffect} from "react";
 import ReactDOM from "react-dom";
-
 /**
  * useLayOutEffect(): 同步执行副作用
  * 作用：
@@ -12,8 +11,6 @@ import ReactDOM from "react-dom";
  * 注意：
  *   为了用户体验，优先使用useEffect。以避免阻塞视图更新，但如果涉及到同步调用一些副作用，比如操作dom，可以放在useLayoutEffect中
  */
-
-
  function App() {
   const [width, setWidth] = useState(0);
   useLayoutEffect(() => {
