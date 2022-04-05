@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Button,Modal } from 'antd'
 /**
- * 1 . 简单使用
+ * useState：保存组件状态
  */
 
 // 类组件写法

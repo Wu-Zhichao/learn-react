@@ -2,7 +2,7 @@
  import  ReactDOM  from "react-dom";
  import { Modal } from 'antd' 
  /**
-  * useCallback: 
+  * useCallback:  记忆函数
   * 作用：性能优化，避免重复的创建引用和重复无意义的组件渲染，加大性能开销，对于一些开销昂贵的组件来说是很好的优化手段。
   * 特性：
   * 1. useCallback 会将第一个函数参数作为回调函数返回，使用useCallback优化过的回调函数，会在组件初始化渲染时创建函数对象并生成引用，之后组件再次更新渲染时则不会再次创建新对象和引用（普通函数每次组件更新都会创新新的函数对象并生成引用）

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import  ReactDOM  from "react-dom";
 /**
- * useRef:
+ * useRef: 保存引用值
  * 两个作用：
  * 1. 相当于类组件的一个实例属性，只要组件实例不销毁，就一直保持着引用，组件更新时也不会重新初始化,返回一个包含current属性的对象
  * 2. 获取dom元素的一个引用

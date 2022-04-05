@@ -1,7 +1,8 @@
 import React, { useContext, useState }  from "react";
 import ReactDOM from 'react-dom';
 /**
- * useContext: 是类组件的的context的的hooks版，主要用于在父组件中公共数据和逻辑的抽离，方便子组件公用。
+ * useContext:  减少组件层级
+ * 是类组件的的context的的hooks版，主要用于在父组件中公共数据和逻辑的抽离，方便子组件公用。
  */
 // 1. 创建Context对象
 const ThemeContext = React.createContext()

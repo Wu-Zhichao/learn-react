@@ -2,7 +2,7 @@
 import React, { useMemo, useState } from "react";
 import ReactDOM from 'react-dom'
 /**
- * useMemo
+ * useMemo  记忆组件
  * 作用：可以保存组件的渲染结果，根据条件确实是否重新渲染,主要是用来进行性能优化
  * 特性：
  * 1. 使用useMemo包括的jsx代码段初次渲染后，会将渲染结果保存，组件再次更新时不会重复渲染
